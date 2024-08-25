@@ -1,0 +1,547 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title> YouTube.com Clone</title>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href=" style/general.css">
+            <link rel="stylesheet" href="style/header.css">
+            <link rel="stylesheet" href="style/video.css">
+            <link rel="stylesheet" href="style/sidebar.css">
+            
+
+        </head>
+        <body>
+            <header class="header">
+                <div class="left-section">
+                    <img class="hamburger-menu" src="icon/hamburger-menu.svg">
+                    <img class="youtube-logo" src="icon/youtube-logo.svg" >
+                </div>
+                <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <!-- put position absolute inside position relative-->
+                <button class="search-button">
+                    <img  class="search-icon" src="icon/search.svg">
+                    <div class="tooltip">Search</div>
+                </button> 
+                <button class="voice-button">
+                    <img class="voice-search-icon" src="icon/voice-search-icon.svg">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+                </div>
+                <div class="right-section">
+                    <div class="upload-icon-container">
+                        <img class="upload-icon" src="icon/upload.svg">
+                        <div class="tooltip">Create</div>
+                    </div>
+
+                        <div class="youtube-container">
+                        <img class="youtube-apps-icon" src="icon/youtube-apps.svg">
+                        <div class="tooltip">Youtube apps</div>
+                        </div>
+                        
+                
+                    
+                    
+                    <div class="notification-icon-container">
+                        <img class="notifi-icon" src="icon/notifications.svg">
+                        <div class="notifi-counts">3</div>
+                        <div class="tooltip">Notifications</div>
+                    </div>
+                    
+                    <img class="profile-pic" src="channel-pictures/my-channel.jpeg">
+                </div>
+            </header>
+
+
+
+                <nav class="sidebar">
+                    <div class="sidebar-link">
+                        <img src="icon/home.svg">
+                        <div>Home</div>
+                    </div>
+                    <div class="sidebar-link">
+                        <img src="icon/explore.svg">
+                        <div>Explore</div>
+                    </div>
+                    <div class="sidebar-link">
+                        <img src="icon/subscriptions.svg">
+                        <div>Subscriptions</div>
+                    </div>
+                    <div class="sidebar-link">
+                        <img src="icon/originals.svg">
+                        <div>Originals</div>
+                    </div>
+                    <div class="sidebar-link">
+                        <img src="icon/youtube-music.svg">
+                        <div>YouTube Music</div>
+                    </div>
+                    <div class="sidebar-link">
+                        <img src="icon/library.svg">
+                        <div>Library</div>
+                    </div>
+                </nav>
+
+
+                <main>
+                    <section class="video-grid">
+                        <div class ="video-prev">
+                            <div class="thumbnail-row">
+                                <a class="link" href="https://www.youtube.com/watch?v=f9sH5SgCYbY&t=1s&pp=ygUMYXB1cnZhIHNpbmdo">
+                                <img class="thumbnail" src="thumbnails/hq720.webp">
+                                </a>
+                            
+                            <div class="video-time">8:34</div>
+                            </div>
+                
+                            <div class="video-info-grid">
+                                <div class="channel-picture">
+                                    <a class="link" href="https://www.youtube.com/@Apurvavrupa">
+                                    <img class="profile-pic" src="channel-pictures/channels1.2.jpg">
+                                    </a>
+                                
+                
+                                </div>
+                                <div class="video-info">
+                                    <a class="link"  href="https://www.youtube.com/watch?v=f9sH5SgCYbY&t=1s&pp=ygUMYXB1cnZhIHNpbmdo"> 
+                                        <p class="video-title" >
+                                            A Day in the Life of a Software Engineer at Meta 
+                                        </p>
+                                    </a>
+                                    
+                                    <p class="video-author">
+                                        Apurva Singh
+                                    </p>
+                                    <p class="video-stats">
+                                        3.3M views &#183; 1 year ago
+                                    </p>
+                
+                                </div>
+                                
+                                </div>
+                            </div>
+                
+                            <div class="video-prev">
+                                <div class="thumbnail-row">
+                                    <a class="link" href="https://www.youtube.com/watch?v=mP0RAo9SKZk&list=PLk-Aie3BcOSTNjOB7b1a6wDpX86JEkhBH&index=8&pp=iAQB">
+                                    <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+                                    </a>
+                                
+                                <div class="video-time">8:22</div>
+                                </div>
+                    
+                                <div class="video-info-grid">
+                                    <div class="channel-picture">
+                                        <a class="link" href="https://www.youtube.com/@markiplier">
+                                        <img class="profile-pic" src="channel-pictures/channel-2.jpeg">
+                                        </a>
+                                    
+                    
+                                    </div>
+                                    <div class="video-info">
+                                        <a class="link" href="https://www.youtube.com/watch?v=mP0RAo9SKZk&list=PLk-Aie3BcOSTNjOB7b1a6wDpX86JEkhBH&index=8&pp=iAQB" >
+                                            <p class="video-title">
+                                                Try Not To Laugh Challenge #9
+                                            </p>
+                                        </a>
+                                        
+                                        <p class="video-author">
+                                            Markiplier
+                                        </p>
+                                        <p class="video-stats">
+                                            19M views &#183; 4 years ago
+                                        </p>
+                    
+                                    </div>
+                                    
+                                    </div>
+                                </div>
+                
+                
+                                    <div class ="video-prev">
+                                        <div class="thumbnail-row">
+                                            <a class="link" href="https://www.youtube.com/watch?v=LK7-_dgAVQE&pp=ygUQdGF1YmEgdGF1YmEgc29uZw%3D%3D">
+                                            <img class="thumbnail" src="thumbnails/channel-3.webp">
+                                            </a>
+                                        <div class="video-time">3:42</div>
+                                        </div>
+                            
+                                        <div class="video-info-grid">
+                                            <div class="channel-picture">
+                                                <a class="link" href="https://www.youtube.com/@SaregamaMusic">
+                                                    <img class="profile-pic" src="channel-pictures/channels4_profile.jpg">
+            
+                                                </a>
+                                                
+                            
+                                            </div>
+                                            <div class="video-info">
+                                                <a class="link" href="https://www.youtube.com/watch?v=LK7-_dgAVQE&pp=ygUQdGF1YmEgdGF1YmEgc29uZw%3D%3D">
+                                                    <p class="video-title">
+                                                        Tauba Tauba | Bad Newz | Vicky Kaushal | Tripti Dhimri | Karan Aujla | In cinemas 19th July
+                                                    </p>
+            
+                                                </a>
+                                            
+                                                <p class="video-author">
+                                                    Saregama Music
+                                                </p>
+                                                <p class="video-stats">
+                                                    43M views &#183; 9 day ago
+                                                </p>
+                            
+                                            </div>
+                                            
+                                            </div>
+                                        </div>
+                            
+                                        <div class="video-prev">
+                                            <div class="thumbnail-row">
+                                                <a class="link" href="https://www.youtube.com/watch?v=mQrkBZWTOWc&pp=ygUOc3MgdmxvZyBrYWt1ZGE%3D ">
+                                                <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+            
+                                                </a>
+                                        
+                                            <div class="video-time">13:59</div>
+                                            </div>
+                                
+                                            <div class="video-info-grid">
+                                                <div class="channel-picture">
+                                                    <a class="link" href="https://www.youtube.com/@SambhavnaSethEntertainment">
+                                                    <img class="profile-pic" src="channel-pictures/channels5-prof.jpg">
+                                                    </a>
+                                                    
+                                
+                                                </div>
+                                                <div class="video-info">
+                                                    <a class="link" href="https://www.youtube.com/watch?v=mQrkBZWTOWc&pp=ygUOc3MgdmxvZyBrYWt1ZGE%3D ">
+                                                        <p class="video-title">
+                                                            Asking STRANGERS to watch KAKUDA TRAILER &#128514;
+                                                        </p>
+            
+                                                    </a>
+                                                    
+                                                    <p class="video-author">
+                                                        Sambhavna Seth Entertainment
+                                                    </p>
+                                                    <p class="video-stats">
+                                                        1.8M views &#183; 1 day ago
+                                                    </p>
+                                
+                                                </div>
+                                                
+                                                </div>
+                                            </div>
+                
+                
+                
+                                                <div class ="video-prev">
+                                                    <div class="thumbnail-row">
+                                                        <a class="link" href="https://www.youtube.com/watch?v=0o2NCc_0F64&t=22s&pp=ygUkc2xheXBvaW50IGRlc2lzIGdvIHRvIG1vc3QgZXhwZW5zaXZl">
+                                                            <img class="thumbnail" src="thumbnails/thum.webp">
+            
+                                                        </a>
+                                                    
+                                                    <div class="video-time">28:11</div>
+                                                    </div>
+                                        
+                                                    <div class="video-info-grid">
+                                                        <div class="channel-picture">
+                                                            <a class="link" href="https://www.youtube.com/@SlayyPointOfficial">
+                                                            <img class="profile-pic" src="channel-pictures/channel-6.jpg">
+                                                            </a>
+                                                            
+                                        
+                                                        </div>
+                                                        <div class="video-info">
+                                                            <a class="link" href="https://www.youtube.com/watch?v=0o2NCc_0F64&t=22s&pp=ygUkc2xheXBvaW50IGRlc2lzIGdvIHRvIG1vc3QgZXhwZW5zaXZl">
+                                                                <p class="video-title">
+                                                                    Desis Go to The Most EXPENSIVE Country | Switzerland
+                                                                </p>
+            
+                                                            </a>
+                                                            
+                                                            <p class="video-author">
+                                                                Slayy Point
+                                                            </p>
+                                                            <p class="video-stats">
+                                                                8.7M views &#183; 1 month ago
+                                                            </p>
+                                        
+                                                        </div>
+                                                        
+                                                        </div>
+                                                    </div>
+                                        
+                                                    <div class="video-prev">
+                                                        <div class="thumbnail-row">
+                                                            <a class="link" href="https://www.youtube.com/watch?v=1a-MTFrDvPw&pp=ygUgcG9vaCBpbiBrb3JlYSBuZXcgaG91c2Ugc2hvcHBpbmc%3D">
+                                                                <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+                                                            </a>
+                                                        
+                                                        <div class="video-time">11:08</div>
+                                                        </div>
+                                            
+                                                        <div class="video-info-grid">
+                                                            <div class="channel-picture">
+                                                                <a class="link" href="https://www.youtube.com/@PoohinKorea">
+                                                                <img class="profile-pic" src="channel-pictures/channel-7.jpg">
+                                                                </a>
+                                                            </div>
+                                                    
+                                                                
+                                                        
+                                                            
+                                                    <div class="video-info">
+                                                      <a class="link" href="https://www.youtube.com/watch?v=1a-MTFrDvPw&pp=ygUgcG9vaCBpbiBrb3JlYSBuZXcgaG91c2Ugc2hvcHBpbmc%3D">
+                                                      <p class="video-title">
+                                                       NEW HOUSE SHOPPING
+                                                      </p>
+            
+                                                      </a>
+                                                                
+                                                      <p class="video-author">
+                                                        Pooh in Korea
+                                                      </p>
+                                                      <p class="video-stats">
+                                                        4.8M views &#183; 1 year ago
+                                                       </p>
+                                            
+                                                      </div>
+                                                            
+                                                     </div>
+                                                </div>
+
+
+                                                        <div class ="video-prev">
+                                                            <div class="thumbnail-row">
+                                                                <a class="link" href="https://youtu.be/1vG2PCku__4">
+                                                                <img class="thumbnail" src="thumbnails/thumb_7.webp">
+                                                                </a>
+                                                            <div class="video-time">29:45</div>
+                                                            </div>
+                                                
+                                                            <div class="video-info-grid">
+                                                                <div class="channel-picture">
+                                                                    <a class="link" href="https://www.youtube.com/@dailymax24">
+                                                                        <img class="profile-pic" src="channel-pictures/channels7_profile.jpg">
+                                
+                                                                    </a>
+                                                                    
+                                                
+                                                                </div>
+                                                                <div class="video-info">
+                                                                    <a class="link" href="https://youtu.be/1vG2PCku__4">
+                                                                        <p class="video-title">
+                                                                            Trying Southern India Food in Lucknow, India
+                                                                        </p>
+                                
+                                                                    </a>
+                                                                
+                                                                    <p class="video-author">
+                                                                        Daily Max
+                                                                    </p>
+                                                                    <p class="video-stats">
+                                                                        1.7M views &#183; 1 year ago
+                                                                    </p>
+                                                
+                                                                </div>
+                                                                
+                                                                </div>
+                                                            </div>
+
+                                                            <div class ="video-prev">
+                                                                <div class="thumbnail-row">
+                                                                    <a class="link" href="https://www.youtube.com/watch?v=nsfja84BNzE">
+                                                                    <img class="thumbnail" src="thumbnails/thumb8.webp">
+                                                                    </a>
+                                                                <div class="video-time">8:02</div>
+                                                                </div>
+                                                    
+                                                                <div class="video-info-grid">
+                                                                    <div class="channel-picture">
+                                                                        <a class="link" href="https://www.youtube.com/@BuzzFeedIndia">
+                                                                            <img class="profile-pic" src="channel-pictures/channel8.jpg">
+                                    
+                                                                        </a>
+                                                                        
+                                                    
+                                                                    </div>
+                                                                    <div class="video-info">
+                                                                        <a class="link" href="https://www.youtube.com/watch?v=nsfja84BNzE">
+                                                                            <p class="video-title">
+                                                                                Who Has The Best Rice Meal Order? | BuzzFeed India
+                                                                            </p>
+                                    
+                                                                        </a>
+                                                                    
+                                                                        <p class="video-author">
+                                                                            BuzzFeed India
+                                                                        </p>
+                                                                        <p class="video-stats">
+                                                                            928K views &#183; 1 year ago
+                                                                        </p>
+                                                    
+                                                                    </div>
+                                                                    
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class ="video-prev">
+                                                                    <div class="thumbnail-row">
+                                                                        <a class="link" href="https://youtu.be/86CQq3pKSUw">
+                                                                        <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+                                                                        </a>
+                                                                    <div class="video-time">11:16</div>
+                                                                    </div>
+                                                        
+                                                                    <div class="video-info-grid">
+                                                                        <div class="channel-picture">
+                                                                            <a class="link" href="https://www.youtube.com/@CSDojo">
+                                                                                <img class="profile-pic" src="channel-pictures/channel-9.jpg">
+                                        
+                                                                            </a>
+                                                                            
+                                                        
+                                                                        </div>
+                                                                        <div class="video-info">
+                                                                            <a class="link" href="https://youtu.be/86CQq3pKSUw">
+                                                                                <p class="video-title">
+                                                                                    Kadane's Algorithm to Maximum Sum Subarray Problem
+                                                                                </p>
+                                        
+                                                                            </a>
+                                                                        
+                                                                            <p class="video-author">
+                                                                                CS Dojo
+                                                                            </p>
+                                                                            <p class="video-stats">
+                                                                                1.94M views &#183; 8 years ago
+                                                                            </p>
+                                                        
+                                                                        </div>
+                                                                        
+                                                                        </div>
+                                                                    </div>
+
+
+                                                                    <div class ="video-prev">
+                                                                        <div class="thumbnail-row">
+                                                                            <a class="link" href="https://youtu.be/ixmxOlcrlUc">
+                                                                            <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
+                                                                            </a>
+                                                                        <div class="video-time">11:12</div>
+                                                                        </div>
+                                                            
+                                                                        <div class="video-info-grid">
+                                                                            <div class="channel-picture">
+                                                                                <a class="link" href="https://www.youtube.com/@OFFICIALTHENXSTUDIOS">
+                                                                                    <img class="profile-pic" src="channel-pictures/channel-10.jpeg">
+                                            
+                                                                                </a>
+                                                                                
+                                                            
+                                                                            </div>
+                                                                            <div class="video-info">
+                                                                                <a class="link" href="https://youtu.be/ixmxOlcrlUc">
+                                                                                    <p class="video-title">
+																																											The SECRET to Super Human STRENGTH
+                                                                                    </p>
+                                            
+                                                                                </a>
+                                                                            
+                                                                                <p class="video-author">
+                                                                                    THENX
+                                                                                </p>
+                                                                                <p class="video-stats">
+                                                                                    7.8M views &#183; 6 years ago
+                                                                                </p>
+                                                            
+                                                                            </div>
+                                                                            
+                                                                            </div>
+                                                                        </div>
+
+
+                                                                        <div class ="video-prev">
+                                                                            <div class="thumbnail-row">
+                                                                                <a class="link" href="https://www.youtube.com/watch?v=0nZuYyXET3s">
+                                                                                <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
+                                                                                </a>
+                                                                            <div class="video-time">4:42</div>
+                                                                            </div>
+                                                                
+                                                                            <div class="video-info-grid">
+                                                                                <div class="channel-picture">
+                                                                                    <a class="link" href="https://www.youtube.com/c/Destinationtips">
+                                                                                        <img class="profile-pic" src="channel-pictures/channel-11.jpeg">
+                                                
+                                                                                    </a>
+                                                                                    
+                                                                
+                                                                                </div>
+                                                                                <div class="video-info">
+                                                                                    <a class="link" href="https://www.youtube.com/watch?v=0nZuYyXET3s">
+                                                                                        <p class="video-title">
+																																													Dubai's Crazy Underwater Train and Other Things #Only in Dubai
+                                                                                        </p>
+                                                
+                                                                                    </a>
+                                                                                
+                                                                                    <p class="video-author">
+                                                                                        Destination Tips
+                                                                                    </p>
+                                                                                    <p class="video-stats">
+                                                                                        3M views &#183; 1 year ago
+                                                                                    </p>
+                                                                
+                                                                                </div>
+                                                                                
+                                                                                </div>
+                                                                            </div>
+
+
+                                                                            <div class ="video-prev">
+                                                                                <div class="thumbnail-row">
+                                                                                    <a class="link" href="https://www.youtube.com/watch?v=Oi5U0ozX2YA">
+                                                                                    <img class="thumbnail" src="thumbnails/thum-12.webp">
+                                                                                    </a>
+                                                                                <div class="video-time">9:29</div>
+                                                                                </div>
+                                                                    
+                                                                                <div class="video-info-grid">
+                                                                                    <div class="channel-picture">
+                                                                                        <a class="link" href="https://www.youtube.com/@starlighttsoul444">
+                                                                                            <img class="profile-pic" src="channel-pictures/channels12_profile.jpg">
+                                                    
+                                                                                        </a>
+                                                                                        
+                                                                    
+                                                                                    </div>
+                                                                                    <div class="video-info">
+                                                                                        <a class="link" href="https://www.youtube.com/watch?v=Oi5U0ozX2YA">
+                                                                                            <p class="video-title">
+                                                                                                You'll see this right before you enter your WINNING season
+                                                                                            </p>
+                                                    
+                                                                                        </a>
+                                                                                    
+                                                                                        <p class="video-author">
+                                                                                            ESTELLE
+                                                                                        </p>
+                                                                                        <p class="video-stats">
+                                                                                            338K views &#183; 2 weeks ago
+                                                                                        </p>
+                                                                    
+                                                                                    </div>
+                                                                                    
+                                                                                    </div>
+                                                                                </div>
+                
+            
+            
+                                                    </section>
+                </main>
+            </body>
+    </html>

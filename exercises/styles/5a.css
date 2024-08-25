@@ -1,0 +1,58 @@
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.fivea{
+    font-family:  Tahoma;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+
+.deal{
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.sale{
+    color: rgb(234, 75, 75);
+    font-family: Arial;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+.heading{
+    font-family: verdana;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pro{
+    font-family: verdana;
+    color: rgb(96,96,96);
+    line-height: 25px; 
+    margin-bottom: 17px;
+}
+
+.para{
+    font-family: verdana;
+    width: 300px;
+    margin-bottom: 15px;
+    
+}
+.button{
+    background-color: green;
+    font-family: verdana;
+    font-size: 14px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 150px;
+}

@@ -1,0 +1,30 @@
+p{
+    font-family: arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.num{
+    color: black;
+    font-size: 30px;
+}
+.usd{
+    font-family: arial;
+    font-size: 17px;
+    color: grey;
+}
+.per{
+    color: green;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.grey{
+    color: grey;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.red{
+    color: rgb(226, 16, 16);
+}
+

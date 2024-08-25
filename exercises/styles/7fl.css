@@ -1,0 +1,42 @@
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+
+.emu{
+    color: grey;
+    font-family: Arial;
+    margin-bottom: 6px;
+}
+.box{
+    width: 250px;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 10px;
+    border-color: gray;
+    border-radius: 5px;
+    margin-bottom: 17px;
+    
+}
+.para{
+    color: grey;
+    font-family: arial;
+    margin-bottom: 15px;
+}
+
+.blue{
+    padding-left: 90px;
+    padding-right: 98px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(59, 127, 230);
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+
+}

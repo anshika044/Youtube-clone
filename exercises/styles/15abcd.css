@@ -1,0 +1,40 @@
+.close-but{
+    background-color: black;
+    color: white;
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-radius: 50%;
+    font-family: arial;
+    margin-right: 10px;
+    left: -10px;
+    top: -10px;
+    
+
+}
+
+.box{
+    background-color: grey;
+    color: grey;
+    position: fixed;
+    width: 320px;
+    height: 180px;
+    bottom: 20px;
+    right: 20px;
+}
+.time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    font-family: arial;
+    font-size: 16px;
+    bottom: 10px;
+    right: 8px;
+
+}
